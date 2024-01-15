@@ -13,9 +13,9 @@ public class Area {
         this.p3 = p3;
     }
 
-    public Area(int id, Linea l1, Linea l2) {
+    public Area(int id, Linea[] lineas) {
         this.id = id;
-        this.l1 = l1;
-        this.l2 = l2;
+        this.l1 = lineas[0];
+        this.l2 = lineas[1];
     }
 }
